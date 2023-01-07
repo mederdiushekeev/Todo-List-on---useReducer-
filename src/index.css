@@ -1,0 +1,7 @@
+a {
+  text-decoration: none !important;
+}
+
+.completed {
+  text-decoration: line-through;
+}
