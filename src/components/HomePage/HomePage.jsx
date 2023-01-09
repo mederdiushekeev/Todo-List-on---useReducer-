@@ -5,10 +5,8 @@ import TodoList from "../TodoList/TodoList";
 const HomePage = () => {
   return (
     <div>
-      <h1>
-        <AddTodo />
-        <TodoList />
-      </h1>
+      <AddTodo />
+      <TodoList />
     </div>
   );
 };

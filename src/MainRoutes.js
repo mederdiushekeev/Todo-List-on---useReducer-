@@ -4,6 +4,7 @@ import TodoList from "./components/TodoList/TodoList";
 import Header from "./components/Header/Header";
 import HomePage from "./components/HomePage/HomePage";
 import { Route, Routes } from "react-router-dom";
+import EditTodo from "./components/EditTodo/EditTodo";
 
 const MainRoutes = () => {
   return (
@@ -13,6 +14,7 @@ const MainRoutes = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/todos" element={<TodoList />} />
         <Route path="/add" element={<AddTodo />} />
+        <Route path="/edit/:id" element={<EditTodo />} />
       </Routes>
     </div>
   );
